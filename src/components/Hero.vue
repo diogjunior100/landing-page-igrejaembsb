@@ -47,14 +47,14 @@ onMounted(() => {
             <span class="block text-secondary">Brasília</span>
           </h1>
 
-          <p class="text-lg md:text-xl text-white/80 leading-relaxed mb-8 max-w-xl">
+          <!--<p class="text-lg md:text-xl text-white/80 leading-relaxed mb-8 max-w-xl">
             Uma comunidade de fé, amor e esperança no coração da capital federal. 
             Venha fazer parte desta família e transforme sua vida através da Palavra.
-          </p>
+          </p>-->
 
           <div class="flex flex-col sm:flex-row gap-4">
             <a href="#cultos" class="btn-primary inline-flex items-center justify-center gap-2">
-              Nossos Cultos
+              Nossas Reuniões
               <Calendar class="w-5 h-5" />
             </a>
             <a href="#sobre" class="btn-outline inline-flex items-center justify-center gap-2">
@@ -79,7 +79,7 @@ onMounted(() => {
                 <Clock class="w-6 h-6 text-secondary" />
               </div>
               <div>
-                <p class="text-white/60 text-sm">Próximo Culto</p>
+                <p class="text-white/60 text-sm">Próxima Reunião</p>
                 <p class="text-white font-medium">Domingo, 10h</p>
               </div>
             </div>

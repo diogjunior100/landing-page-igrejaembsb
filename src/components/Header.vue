@@ -43,22 +43,11 @@ const navLinks = [
       <div class="flex items-center justify-between h-20">
         <!-- Logo -->
         <a href="#inicio" class="flex items-center gap-3">
-          <div 
-            :class="[
-              'w-12 h-12 rounded-full flex items-center justify-center transition-colors duration-300',
-              isScrolled ? 'bg-primary' : 'bg-white/20 backdrop-blur-sm'
-            ]"
-          >
-            <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none">
-              <path 
-                d="M12 2L12 8M12 8L8 12M12 8L16 12M4 22H20M6 22V14L12 10L18 14V22" 
-                :stroke="isScrolled ? 'white' : 'white'" 
-                stroke-width="2" 
-                stroke-linecap="round" 
-                stroke-linejoin="round"
-              />
-            </svg>
-          </div>
+          <img 
+            src="/logo-igreja.png" 
+            alt="Logo Igreja em Brasília"
+            class="w-12 h-12 rounded-full object-cover"
+          />
           <div>
             <span 
               :class="[

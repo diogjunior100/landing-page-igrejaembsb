@@ -10,10 +10,37 @@ const form = ref({
   message: ''
 })
 
+// Número do WhatsApp da igreja (com código do país e DDD)
+const WHATSAPP_NUMBER = '5586999108399' // Substitua pelo número real
+
+const subjectLabels = {
+  visita: 'Quero visitar a igreja',
+  oracao: 'Pedido de oração',
+  ministerio: 'Participar de ministério',
+  evento: 'Informações sobre eventos',
+  outro: 'Outro assunto'
+}
+
 const handleSubmit = () => {
-  console.log('Form submitted:', form.value)
-  // Handle form submission
-  alert('Mensagem enviada com sucesso! Entraremos em contato em breve.')
+  // Formatar a mensagem pré-montada
+  const mensagem = `*Formulário de Contato*
+
+  *Nome:* ${form.value.name}
+  *E-mail:* ${form.value.email}
+  *Telefone:* ${form.value.phone}
+  *Assunto:* ${subjectLabels[form.value.subject] || form.value.subject}
+
+  *Mensagem:*
+  ${form.value.message}`
+
+  // Codificar a mensagem para URL
+  const mensagemCodificada = encodeURIComponent(mensagem)
+
+  // Redirecionar para WhatsApp
+  const urlWhatsApp = `https://wa.me/${WHATSAPP_NUMBER}?text=${mensagemCodificada}`
+  window.open(urlWhatsApp, '_blank')
+
+  // Limpar o formulário
   form.value = { name: '', email: '', phone: '', subject: '', message: '' }
 }
 

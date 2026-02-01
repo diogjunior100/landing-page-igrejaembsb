@@ -3,33 +3,41 @@ import { Clock, MapPin, Users, Music } from 'lucide-vue-next'
 
 const services = [
   {
-    day: 'Domingo',
-    time: '10:00',
-    title: 'Culto de Celebração',
+    day: 'Segunda-Feira',
+    time: '19:00',
+    title: 'Homens de Oração',
     description: 'Momento especial de adoração, louvor e ministração da Palavra para toda a família.',
     icon: Music,
     featured: true
   },
   {
-    day: 'Domingo',
-    time: '18:00',
-    title: 'Culto da Noite',
+    day: 'Terça-Feira',
+    time: '20:00',
+    title: 'Roda de Leitura',
     description: 'Culto de adoração e estudo bíblico aprofundado para encerrar a semana.',
     icon: Users,
     featured: false
   },
   {
-    day: 'Quarta-feira',
+    day: 'Sexta-Feira à Domingo',
     time: '19:30',
-    title: 'Culto de Oração',
+    title: 'Casa de Adolescentes',
     description: 'Reunião dedicada à intercessão, comunhão e busca pela presença de Deus.',
     icon: Clock,
     featured: false
   },
   {
     day: 'Sábado',
-    time: '17:00',
-    title: 'Culto dos Jovens',
+    time: '19:30',
+    title: 'Palavra Ministerial',
+    description: 'Encontro vibrante para jovens com louvor contemporâneo e mensagens relevantes.',
+    icon: Users,
+    featured: false
+  },
+  {
+    day: 'Domingo',
+    time: '09:30',
+    title: 'Mesa do Senhor',
     description: 'Encontro vibrante para jovens com louvor contemporâneo e mensagens relevantes.',
     icon: Users,
     featured: false
@@ -53,17 +61,16 @@ const services = [
           <span class="text-sm font-medium text-white/90">Nossos Cultos</span>
         </div>
         <h2 class="font-serif text-4xl md:text-5xl font-bold text-white mb-6">
-          Momentos de encontro com
-          <span class="text-secondary">Deus</span>
+          Reuniões Semanais
         </h2>
         <p class="text-white/70 text-lg max-w-2xl mx-auto">
-          Participe dos nossos cultos semanais e experimente a presença de Deus em sua vida.
+          Participe das nossss reuniões semanais e experimente os milagres da Palavra Profética em sua vida. </br>
           Todos são bem-vindos!
         </p>
       </div>
 
       <!-- Services Grid -->
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div
           v-for="(service, index) in services"
           :key="index"
@@ -141,11 +148,11 @@ const services = [
             </div>
             <div>
               <h3 class="font-serif text-2xl font-bold text-white mb-2">Nossa Localização</h3>
-              <p class="text-white/70">SGAS 914, Conjunto A, Lote 62 - Asa Sul, Brasília - DF</p>
+              <p class="text-white/70">SGAS II SGAS 607 Conjunto C Módulo 48 - Asa Sul, Brasília - DF</p>
             </div>
           </div>
           <a 
-            href="https://maps.google.com" 
+            href="https://maps.app.goo.gl/kgkxRA3H2MnpoixX7" 
             target="_blank"
             class="bg-white text-primary px-8 py-4 rounded-full font-semibold hover:bg-cream transition-colors duration-300 flex items-center gap-2"
           >
