@@ -123,31 +123,6 @@ const socialLinks = [
       </div>
     </div>
 
-    <!-- Newsletter -->
-    <div class="border-t border-white/10">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div class="flex flex-col md:flex-row items-center justify-between gap-6">
-          <div>
-            <h3 class="font-serif text-lg font-bold mb-1">Receba nossas novidades</h3>
-            <p class="text-white/60 text-sm">Cadastre-se para receber informações sobre eventos e cultos.</p>
-          </div>
-          <form @submit.prevent class="flex w-full md:w-auto gap-3">
-            <input
-              type="email"
-              placeholder="Seu melhor e-mail"
-              class="flex-1 md:w-72 px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-secondary"
-            />
-            <button
-              type="submit"
-              class="bg-secondary text-white px-6 py-3 rounded-xl font-semibold hover:bg-secondary-light transition-colors duration-300 whitespace-nowrap"
-            >
-              Inscrever-se
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
-
     <!-- Bottom Bar -->
     <div class="border-t border-white/10">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">

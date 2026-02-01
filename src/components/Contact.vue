@@ -196,7 +196,7 @@ const socialLinks = [
       <div class="mt-16 reveal">
         <div class="bg-white/10 backdrop-blur-sm rounded-3xl p-4 overflow-hidden">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15351.654673765812!2d-47.91631799999999!3d-15.8337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3b0d0c4b4b4b%3A0x0!2zMTXCsDUwJzAxLjMiUyA0N8KwNTQnNTguNyJX!5e0!3m2!1spt-BR!2sbr!4v1609459200000!5m2!1spt-BR!2sbr"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d980.9143384185865!2d-47.89477927130885!3d-15.820681075581943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a25420578aff3%3A0xb942dcba673ca07a!2sIgreja!5e0!3m2!1sen!2sbr!4v1769911652778!5m2!1sen!2sbr"
             width="100%"
             height="400"
             style="border:0; border-radius: 1rem;"
