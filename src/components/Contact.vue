@@ -60,17 +60,11 @@ const contactInfo = [
     title: 'E-mail',
     details: ['contato@igrejabrasilia.org.br', 'secretaria@igrejabrasilia.org.br']
   },
-  {
-    icon: Clock,
-    title: 'Horário de Atendimento',
-    details: ['Segunda a Sexta: 8h - 18h', 'Sábado: 9h - 12h']
-  }
 ]
 
 const socialLinks = [
-  { icon: Instagram, href: '#', name: 'Instagram' },
-  { icon: Facebook, href: '#', name: 'Facebook' },
-  { icon: Youtube, href: '#', name: 'YouTube' }
+  { icon: Instagram, href: 'https://www.instagram.com/igrejaembrasilia/', name: 'Instagram' },
+  { icon: Youtube, href: 'https://www.youtube.com/@IgrejaemBrasilia1', name: 'YouTube' }
 ]
 </script>
 
@@ -94,7 +88,7 @@ const socialLinks = [
           <span class="text-secondary">contato</span>
         </h2>
         <p class="text-white/70 text-lg max-w-2xl mx-auto">
-          Estamos aqui para ajudá-lo. Entre em contato conosco e teremos prazer em atendê-lo.
+          Entre em contato conosco e teremos prazer em atendê-lo.
         </p>
       </div>
 

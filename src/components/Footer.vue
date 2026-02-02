@@ -17,13 +17,11 @@ const ministryLinks = [
   { name: 'Jovens', href: '#ministerios' },
   { name: 'Infantil', href: '#ministerios' },
   { name: 'Casais', href: '#ministerios' },
-  { name: 'Ação Social', href: '#ministerios' }
 ]
 
 const socialLinks = [
-  { icon: Instagram, href: '#', name: 'Instagram' },
-  { icon: Facebook, href: '#', name: 'Facebook' },
-  { icon: Youtube, href: '#', name: 'YouTube' }
+  { icon: Instagram, href: 'https://www.instagram.com/igrejaembrasilia/', name: 'Instagram' },
+  { icon: Youtube, href: 'https://www.youtube.com/@IgrejaemBrasilia1', name: 'YouTube' }
 ]
 </script>
 
@@ -36,24 +34,16 @@ const socialLinks = [
         <div class="lg:col-span-1">
           <a href="#inicio" class="flex items-center gap-3 mb-6">
             <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
-              <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none">
-                <path 
-                  d="M12 2L12 8M12 8L8 12M12 8L16 12M4 22H20M6 22V14L12 10L18 14V22" 
-                  stroke="white" 
-                  stroke-width="2" 
-                  stroke-linecap="round" 
-                  stroke-linejoin="round"
-                />
-              </svg>
+              <img 
+                src="/logo-igreja.png" 
+                alt="Logo Igreja em Brasília"
+                class="w-12 h-12 rounded-full object-cover"
+              />
             </div>
             <div>
               <span class="font-serif text-xl font-bold">Igreja em Brasília</span>
             </div>
           </a>
-          <p class="text-white/70 leading-relaxed mb-6">
-            Uma comunidade dedicada a proclamar o amor de Deus e transformar vidas através da fé, 
-            esperança e amor no coração da capital federal.
-          </p>
           <div class="flex gap-3">
             <a
               v-for="social in socialLinks"
@@ -131,7 +121,7 @@ const socialLinks = [
             {{ currentYear }} Igreja em Brasília. Todos os direitos reservados.
           </p>
           <p class="flex items-center gap-1">
-            Feito com <Heart class="w-4 h-4 text-secondary fill-secondary" /> para a glória de Deus
+            Jesus Cristo é o Senhor !
           </p>
         </div>
       </div>

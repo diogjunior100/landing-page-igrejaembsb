@@ -39,7 +39,7 @@ onMounted(() => {
         >
           <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
             <span class="w-2 h-2 bg-secondary rounded-full animate-pulse"></span>
-            <span class="text-sm font-medium text-white/90">Bem-vindo à nossa comunidade</span>
+            <span class="text-sm font-medium text-white/90">Bem-vindo à nossa Igreja</span>
           </div>
 
           <h1 class="font-serif text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
@@ -98,20 +98,12 @@ onMounted(() => {
             
             <div class="grid grid-cols-2 gap-6">
               <div class="text-center p-6 bg-white/10 rounded-2xl">
-                <span class="block font-serif text-4xl font-bold text-secondary mb-2">25+</span>
+                <span class="block font-serif text-4xl font-bold text-secondary mb-2">50+</span>
                 <span class="text-white/70 text-sm">Anos de história</span>
               </div>
               <div class="text-center p-6 bg-white/10 rounded-2xl">
                 <span class="block font-serif text-4xl font-bold text-secondary mb-2">500+</span>
                 <span class="text-white/70 text-sm">Membros ativos</span>
-              </div>
-              <div class="text-center p-6 bg-white/10 rounded-2xl">
-                <span class="block font-serif text-4xl font-bold text-secondary mb-2">12</span>
-                <span class="text-white/70 text-sm">Ministérios</span>
-              </div>
-              <div class="text-center p-6 bg-white/10 rounded-2xl">
-                <span class="block font-serif text-4xl font-bold text-secondary mb-2">50+</span>
-                <span class="text-white/70 text-sm">Projetos sociais</span>
               </div>
             </div>
 

@@ -6,58 +6,44 @@ const ministries = [
     icon: Music,
     name: 'Louvor',
     description: 'Conduzindo a igreja à presença de Deus através da música e adoração.',
-    members: 35,
     color: 'bg-primary'
   },
   {
     icon: Users,
     name: 'Jovens',
     description: 'Alcançando e discipulando a próxima geração com mensagens relevantes.',
-    members: 120,
     color: 'bg-secondary'
   },
   {
     icon: Baby,
     name: 'Infantil',
     description: 'Ensinando as crianças a amar a Deus de forma criativa e divertida.',
-    members: 45,
     color: 'bg-earth'
   },
   {
     icon: Heart,
     name: 'Casais',
     description: 'Fortalecendo famílias e casamentos através da Palavra de Deus.',
-    members: 80,
     color: 'bg-primary-light'
   },
   {
     icon: Briefcase,
     name: 'Homens',
     description: 'Formando homens de Deus para liderança na família e sociedade.',
-    members: 60,
     color: 'bg-earth-dark'
   },
   {
     icon: Heart,
     name: 'Mulheres',
     description: 'Capacitando mulheres a viverem seu chamado com excelência.',
-    members: 90,
     color: 'bg-secondary-dark'
   },
   {
     icon: BookOpen,
     name: 'Escola Bíblica',
     description: 'Estudo sistemático das Escrituras para crescimento espiritual.',
-    members: 150,
     color: 'bg-primary-dark'
   },
-  {
-    icon: Handshake,
-    name: 'Ação Social',
-    description: 'Servindo a comunidade com amor e compaixão de Cristo.',
-    members: 40,
-    color: 'bg-secondary-light'
-  }
 ]
 </script>
 
@@ -107,9 +93,6 @@ const ministries = [
 
           <!-- Members Badge -->
           <div class="flex items-center justify-between">
-            <span class="text-xs text-earth/70 bg-cream px-3 py-1 rounded-full">
-              {{ ministry.members }} membros
-            </span>
             <div class="w-8 h-8 rounded-full bg-cream flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all duration-300">
               <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
